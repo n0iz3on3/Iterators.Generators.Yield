@@ -18,7 +18,6 @@ class FlatIteratorH:
                 continue
             if isinstance(element, list):
                 self.chek_list.append(iter(element))
-                continue
             else:
                 return element
         raise StopIteration
